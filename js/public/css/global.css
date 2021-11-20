@@ -1,0 +1,44 @@
+html {
+    background-color: #0A0E14;
+    color: #fafafa !important;
+    padding: 2rem;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+body div {
+    width: 80%;
+}
+
+.navbar {
+    padding-bottom: 2rem;
+}
+
+.navbar nav {
+    display: flex;
+    flex-flow: row;
+}
+
+.navbar nav div {
+    display: flex;
+    flex-flow: column;
+    width: 25%;
+}
+
+.navbar a {
+    color: #fafafa;
+    text-decoration: none;
+    width: min-content;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar a.here {
+    font-style: italic;
+}
